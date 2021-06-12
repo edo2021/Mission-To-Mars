@@ -2,7 +2,7 @@
 Before You Begin
 
 
-Create a new repository for this project called web-scraping-challenge. Do not add this homework to an existing repository.
+Create a new repository for this project. Do not add this homework to an existing repository.
 
 
 Clone the new repository to your computer.
