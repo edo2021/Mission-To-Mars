@@ -8,7 +8,7 @@ Create a new repository for this project. Do not add this homework to an existin
 Clone the new repository to your computer.
 
 
-Inside your local git repository, create a directory for the web scraping challenge. Use a folder name to correspond to the challenge: Missions_to_Mars.
+Inside your local git repository, create a directory. Use a folder name to correspond to the directory and name it.
 
 
 Add your notebook files to this folder as well as your flask app.
