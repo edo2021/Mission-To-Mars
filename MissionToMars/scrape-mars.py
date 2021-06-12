@@ -117,7 +117,6 @@ def scrape():
 
     valles_browser.quit()
 
-    #locating title and image for all hemispheres and storing in variables
     cerb_name = cerb_soup.find('h2', class_="title").text
     cerb_image = cerb_soup.find('img', class_="wide-image")['src']
 
@@ -127,17 +126,15 @@ def scrape():
 
     cerb_browser.quit()
 
-    #locating title and image for all hemispheres and storing in variables
     schia_name = schia_soup.find('h2', class_="title").text
     schia_image = schia_soup.find('img', class_="wide-image")['src']
 
-    #append values to list
     hemi_title.append(schia_name)
     hemi_image_url.append(hemi_url+schia_image)
 
     schia_browser.quit()
 
-    #locating title and image for all hemispheres and storing in variables
+
     syrt_name = syrt_soup.find('h2', class_="title").text
     syrt_image = syrt_soup.find('img', class_="wide-image")['src']
 
